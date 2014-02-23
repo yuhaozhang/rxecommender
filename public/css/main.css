@@ -1,0 +1,56 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family:"Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  overflow: scroll;
+  background-color: #3B74BF;
+  /*background-color: #7A858E;*/
+}
+
+.main-logo {
+  position: fixed;
+  right:30%;
+  left:30%;
+  top:25%;
+}
+
+.main-logo img{
+  width: 100%;
+  height: auto;
+}
+
+.main-center {
+  position: fixed;
+  top: 55%;
+  left: 10%;
+  right: 10%;
+  margin-top:-80px;
+}
+
+.main-label {
+  font-weight: 200;
+  color: white;
+}
+
+.main-input {
+  border-radius: 2px;
+}
+
+.main-button {
+  font-weight: 300;
+  border-radius: 3px;
+  background-color: hsl(41, 85%, 35%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efb73d", endColorstr="#a5750d");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#efb73d), to(#a5750d));
+  background-image: -moz-linear-gradient(top, #efb73d, #a5750d);
+  background-image: -ms-linear-gradient(top, #efb73d, #a5750d);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efb73d), color-stop(100%, #a5750d));
+  background-image: -webkit-linear-gradient(top, #efb73d, #a5750d);
+  background-image: -o-linear-gradient(top, #efb73d, #a5750d);
+  background-image: linear-gradient(#efb73d, #a5750d);
+  border-color: #a5750d #a5750d hsl(41, 85%, 29%);
+  color: #fff !important;
+  -webkit-font-smoothing: antialiased;
+}

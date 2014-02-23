@@ -1,0 +1,19 @@
+extends index
+
+block content
+  .main-logo
+    img(src='/img/logo.png')
+
+  .main-center
+    form.form-horizontal(role='form')
+      .form-group
+        label.col-sm-2.control-label.main-label(for='symptom') Symptom
+        .col-sm-9
+          input.form-control.main-input#symptom(type='text', placeholder='Symptom')
+      .form-group
+        label.col-sm-2.control-label.main-label(for='contradiction') Contradiction
+        .col-sm-9
+          input.form-control.main-input#contradiction(type='text', placeholder='Contradiction')
+      .form-group
+        .col-sm-offset-4.col-sm-4
+          button.btn.btn-block.main-button(type='submit') Search For Drugs
