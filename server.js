@@ -3,7 +3,7 @@ var express = require('express'),
   fs = require('fs'),
   config = require('./config/config');
 
-var database_uri = process.env.MONGOLAB_URI || config.db
+var database_uri = process.env.MONGOLAB_URI || config.db;
 
 mongoose.connect(database_uri);
 var db = mongoose.connection;
