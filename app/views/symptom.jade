@@ -1,0 +1,49 @@
+extends index
+
+block content
+  .page-logo
+    img(src='/img/logo.png')
+
+  .page-center
+    .page-center-pad
+      .page-container
+        p.page-question What do you need medication for?
+        .page-line
+        textarea.form-control.page-textarea(rows="4", placeholder='I need medication for ...')
+        .container.page-button-container
+          .row
+            .col-md-6.col-md-offset-3
+              button.btn.btn-block.btn-success#next-button Next Step
+            //- .col-md-3.col-md-offset-6
+              //- button.btn.btn-block.main-button Next
+
+block js
+  script(src="/js/symptom.js")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //- form.form-horizontal(role='form')
+    //-   .form-group
+    //-     label.col-sm-2.control-label.page-label(for='symptom') Symptom
+    //-     .col-sm-9
+    //-       input.form-control.page-input#symptom(type='text', placeholder='Symptom')
+    //-   .form-group
+    //-     label.col-sm-2.control-label.page-label(for='contradiction') Contradiction
+    //-     .col-sm-9
+    //-       input.form-control.page-input#contradiction(type='text', placeholder='Contradiction')
+    //-   .form-group
+    //-     .col-sm-offset-4.col-sm-4
+    //-       button.btn.btn-block.page-button(type='submit') Search For Drugs

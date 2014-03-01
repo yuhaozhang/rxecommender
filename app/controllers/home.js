@@ -10,3 +10,27 @@ exports.index = function(req, res){
     });
   });
 };
+
+exports.renderSymptom = function(req, res){
+  res.render('symptom', {
+      title: 'Symptom'
+    });
+}
+
+exports.renderMedication = function(req, res){
+  res.render('medication', {
+      title: 'Medication'
+    });
+}
+
+exports.renderCondition = function(req, res){
+  res.render('condition', {
+      title: 'Condition'
+    });
+}
+
+exports.renderAllergy = function(req, res){
+  res.render('allergy', {
+      title: 'Allergy'
+    });
+}

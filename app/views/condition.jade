@@ -1,0 +1,21 @@
+extends index
+
+block content
+  .page-logo
+    img(src='/img/logo.png')
+
+  .page-center
+    .page-center-pad
+      .page-container
+        p.page-question Do you have any other conditions I should know about?
+        .page-line
+        textarea.form-control.page-textarea(rows="4", placeholder='I have conditions like ...')
+        .container.page-button-container
+          .row
+            .col-md-5
+              button.btn.btn-block.btn-primary#back-button Back
+            .col-md-5.col-md-offset-2
+              button.btn.btn-block.btn-success#next-button Next
+
+block js
+  script(src="/js/condition.js")
