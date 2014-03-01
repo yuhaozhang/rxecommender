@@ -7,7 +7,7 @@ $(document).ready(function() {
 function initializePage() {
   
   $('#back-button').click(function() {
-    window.location.href = '/symptom';
+    window.location.href = '/';
   });
 
   $('#next-button').click(function() {
